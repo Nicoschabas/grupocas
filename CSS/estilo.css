@@ -1,0 +1,371 @@
+/* Fuentes del proyecto */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Bebas+Neue&family=Merriweather:wght@300&family=Mukta&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E6E6E6
+}
+
+a:link
+a:visited
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+header{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+main{
+    padding-top: 2rem;
+}
+
+.top{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.top img{
+    height: 96px;
+
+}
+
+.top p{
+    font-family: 'Bebas Neue', serif;
+    font-size: x-large;
+    padding-left: 30%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:#E6E6E6;
+    transition: 0.3s;
+}
+
+.nav{
+    width: 80%;
+    height: auto; 
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0.5rem;
+    
+}
+
+.navs img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    padding-bottom: 0.5rem;
+    position: relative;
+    padding-top: 0.1rem;
+
+
+}
+
+
+
+#busqueda{
+    width: 200px;
+    position: relative;
+    right: 25rem;
+    bottom: 0rem;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: capitalize;
+    font-size: 22px;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+
+
+.servicios{
+    margin-top: 0.75rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+
+.imagenCAS p{
+    width: 500px;
+
+}
+
+
+.imagenCAS { 
+    background-color: #E6E6E6;
+    margin-left: 5px;
+}
+ 
+.imagenCAS img{
+    height: 400px;
+}
+
+
+.sat { 
+    width: 500px;
+    z-index: 5;
+    }
+
+.fis {
+    width: 500px;
+    z-index: 5;
+}
+
+.mot { 
+    z-index: 5;
+    width: 500px;
+}
+
+.subscripcion {
+    height: 10rem;
+    background-color: #E6E6E6 ;
+    margin-bottom: 00.5rem;
+    margin-top: 00.5rem;
+    padding: 0.5rem 0 0.5rem 0; 
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.subscripcion h4{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.subscripcion p {
+    font-size: 1.25rem;
+}
+
+.input {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
+.btnWhatsapp{
+    display: block;
+    width: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 70px;
+}
+
+.btnWhatsapp img{
+    width: 50px;
+
+}
+
+footer {
+    background-color: #E6E6E6 ;
+    width: 100%;
+    height: 6rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    border: 5px solid black;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    margin-bottom: 2px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+footer h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+#nombre {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#apellido {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#email {
+   margin-bottom: 10px;
+   border-radius: 10px;
+}
+
+.claseFormulario{ 
+    width: 400px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 2px;
+    margin-bottom: 100px;
+    
+}
+
+.legend {
+    width: 400px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.claseFormulario div label{
+    display: block; 
+    
+}
+
+.claseFormulario div input{
+     display: block; 
+    
+}
+
+.nav1 {
+  position: relative;
+  width: 100%;
+  margin-left: 450px;
+
+}
+
+.mision{
+    text-align: center;
+    font-size: large;
+    margin-top: 3rem;
+}
+
+.mision img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.vision img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    
+}
+
+.vision{
+    text-align: center;
+    font-size: large;
+    margin-top: 3rem;
+}
+
+.ubicacion{
+    text-align: center;
+    font-size: large;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.nuestraEmpresa{ 
+    margin-top: 3rem;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: solid;
+
+}
+ 
+.video{
+    text-align: center;
+    font-size: large;
+    margin-top: 3rem;
+}
+
+.contratacion{
+    text-align: center;
+    font-size: large;
+    border: solid;
+    margin-top: 3rem;
+}
+
+.indumentaria{
+    text-align: center;
+    font-size: large;
+    border: solid;
+    margin-top: 10px;
+}
+
+.primeraSeccion{
+    text-align: center;
+    font-size: large;
+    border: solid;
+}
+
+.segundaSeccion{
+    text-align: center;
+    font-size: large;
+    border: 1px 0 solid black;
+    margin-top: 20px;
+}
+
+.primeraSeccion img { 
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.segundaSeccion img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.indumentaria img{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
